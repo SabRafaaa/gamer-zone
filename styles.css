@@ -1,7 +1,7 @@
 /*header*/
 
 header{
-padding: 50px 240px;
+padding: 50px 130px;
 flex-shrink: 0;
 background:bisque;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -13,18 +13,32 @@ nav{
     justify-content: space-between;
 }
 
+.name{
 
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.icon{
+    width: 25px;
+    height: 30px;
+    flex-shrink: 0;
+    
+}
+
+
+.left-side, .right-side{
+    display: flex;
+   
+}
 
 .fb, .tiktok{
-    width: 24px;
-height: 24px;
+    width: 20px;
+height: 20px;
 flex-shrink: 0;
 
 }
 
-.logo{
-    width: 30px;
-height: 15px;
-flex-shrink: 0;
-
-}
