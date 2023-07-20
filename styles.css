@@ -412,15 +412,17 @@ flex-shrink: 0;
 .op1, .op2, .op3, .op4{
     display: flex;
     width: 200px;
-    border-radius: 100px;
-    background: #eed1e4;
+    
+   
 }
 
 .op1:hover,.op2:hover,.op3:hover, .op4:hover{
     background: var(--linear, linear-gradient(90deg, #822d59 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+    border-radius: 100px;
+    background: #e093ba;
 }
 
 .action, .adven, .arcade, .word{
@@ -447,15 +449,16 @@ flex-shrink: 0;
 .op5, .op6, .op7{
     display: flex;
     width: 200px;
-    border-radius: 100px;
-    background: #eed1e4;
+    
 }
 
 .op5:hover,.op6:hover,.op7:hover{
     background: var(--linear, linear-gradient(90deg, #822d59 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+    background: #e093ba;
+   
 }
 
 .strategy, .music, .puzzle{
