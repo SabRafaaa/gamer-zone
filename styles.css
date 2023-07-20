@@ -571,6 +571,29 @@ flex-shrink: 0;
 
 }
 
+/*tab-device*/
+@media screen and (min-width:600px) and (max-width:850px) {
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .profile, .third-section {
+        flex-direction: column;
+
+    }
+       
+    .socials, .overlap-section, .option-container{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+}
+
+
     
 
 
