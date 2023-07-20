@@ -304,10 +304,45 @@ flex-shrink: 0;
 }
 
 .ig-4{
-    border-radius: 16px;
+   border-radius: 16px;
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
+
+.image-container{
+    position: relative; 
+  display: inline-block;
+}
+
+.playb{
+    position: absolute; /* Position the overlay image absolutely within the container */
+  top: 50%; /* Move the image 50% down from the top of the container */
+  left: 50%; /* Move the image 50% from the left of the container */
+  transform: translate(-50%, -50%);
+}
+
+.watch{
+    position: absolute; /* Position the overlay image absolutely within the container */
+  top: 57%; /* Move the image 50% down from the top of the container */
+  left: 50%; /* Move the image 50% from the left of the container */
+  transform: translate(-50%, -50%);
+  color: #F948B2;
+  font-size:20px;
+  font-weight: 400;
+}
+
+.ig-4{
+    transition: filter 0.3s ease;
+}
+
+.ig-4:hover {
+    filter: brightness(40%); /* Adjust the brightness value as needed */
+  }
+
+
+
+
+
 
 .overlap-section{
     display: flex;
