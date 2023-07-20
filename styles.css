@@ -396,6 +396,83 @@ flex-shrink: 0;
 }
 
 
+/*option.container*/
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.op1, .op2, .op3, .op4{
+    display: flex;
+    width: 200px;
+    border-radius: 100px;
+    background: #eed1e4;
+}
+
+.op1:hover,.op2:hover,.op3:hover, .op4:hover{
+    background: var(--linear, linear-gradient(90deg, #822d59 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.action, .adven, .arcade, .word{
+    font-size: 20px;
+    font-weight: 300;
+    color: #264060;
+}
+
+.actionp, .advenp, .arcadp, .wordp{
+    width: 60px;
+    height: 70px;
+    
+}
+
+.options2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.op5, .op6, .op7{
+    display: flex;
+    width: 200px;
+    border-radius: 100px;
+    background: #eed1e4;
+}
+
+.op5:hover,.op6:hover,.op7:hover{
+    background: var(--linear, linear-gradient(90deg, #822d59 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.strategy, .music, .puzzle{
+    font-size: 20px;
+    font-weight: 300;
+    color: #264060;
+}
+
+.startyp, .musicp, .puzzlep{
+    width: 60px;
+    height: 70px;
+    
+}
+
+
+
+
 
 /*responsive media queries*/
 /*mobile-devices*/
