@@ -130,10 +130,10 @@ margin-top: 20px;
 
 
 .lines {
-    color: #67656c;
-font-size: 15px;
-font-style: normal;
-font-weight: 200;
+    color: #76747a;
+font-size: 20px;
+font-style:normal;
+font-weight: 300;
 line-height: normal;
 
 
@@ -183,7 +183,7 @@ line-height: normal;
 }
 
 .banner-content-2{
-    padding: 50px 300px;
+    text-align: right;
     
     
 }
@@ -199,7 +199,7 @@ line-height: normal;
 .we{
     text-align: right; 
 font-family: Work Sans;
-font-size: 30px;
+font-size: 50px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -218,6 +218,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+color: #76747a;
 }
 
 .btn-3{
@@ -303,11 +304,10 @@ height: 350px;
 flex-shrink: 0;
 }
 
-.ig-4{
-   border-radius: 16px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
-}
+
+
+/*hover*/
 
 .image-container{
     position: relative; 
@@ -333,31 +333,41 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 10
 
 .ig-4{
     transition: filter 0.3s ease;
+    
+    
 }
 
 .ig-4:hover {
     filter: brightness(40%); /* Adjust the brightness value as needed */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
   }
 
 
 
 
-
+/*overlap*/
 
 .overlap-section{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .write-up{
 
     margin-top: 100px;
+    text-align: right;
+
+  
     
     
 }
 
-.play{
+.play1, .play2, .play3{
     color: #F948B2;
-    font-style: normal;
+    font-style:oblique;
+    font-size: 30px;
+    
     }
 
 .overlap{
@@ -367,9 +377,10 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 10
 }
 
 .ig-5{
-    width: 510px;
-height: 450px;
+    width: 380px;
+height: 350px;
 flex-shrink: 0;
+margin-left: 50px;
 }
 .ig-6 {
     position: relative;
