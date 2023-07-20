@@ -550,7 +550,7 @@ flex-shrink: 0;
 
 /*responsive media queries*/
 /*mobile-devices*/
-@media screen and (max-width:576px) {
+@media screen and (min-width:425px) and (max-width:626px) {
     header{
         padding: 20px;
     }
@@ -558,9 +558,19 @@ flex-shrink: 0;
     nav{
         flex-direction: column;
     }
-    
+
+    .profile, .third-section {
+        flex-direction: column;
+
+    }
+       
+    .socials, .overlap-section, .option-container{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
 
 }
+
     
 
 
